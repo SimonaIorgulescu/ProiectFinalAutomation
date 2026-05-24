@@ -4,7 +4,7 @@ import Base.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class MyAccountPageTest extends BaseTest {
+public class MyAccountPageTests extends BaseTest {
 
     @Test(groups = {"regression"})
     public void navigheazaLaFavorites(){

@@ -4,7 +4,7 @@ import Base.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class PaymentPageTest extends BaseTest {
+public class PaymentPageTests extends BaseTest {
 
     @Test(groups = {"smoke","regression"})
     public void completePayment(){

@@ -1,11 +1,10 @@
 package Tests;
 
 import Base.BaseTest;
-import Pages.*;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class ProductPageTest extends BaseTest {
+public class ProductPageTests extends BaseTest {
 
 
     @Test(priority = 1, groups = {"smoke","regression"})

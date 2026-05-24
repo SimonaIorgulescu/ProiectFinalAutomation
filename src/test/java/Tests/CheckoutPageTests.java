@@ -4,7 +4,7 @@ import Base.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class CheckoutPageTest extends BaseTest {
+public class CheckoutPageTests extends BaseTest {
 
     @Test(groups = {"smoke","regression"})
     public void completeCheckoutForm(){

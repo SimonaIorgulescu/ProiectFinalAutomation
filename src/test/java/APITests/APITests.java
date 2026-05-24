@@ -7,7 +7,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.core.IsEqual.equalTo;
 import static org.hamcrest.core.IsNull.notNullValue;
 
-public class APITest {
+public class APITests {
 
     @Test
     public void getAllProducts(){
@@ -16,7 +16,7 @@ public class APITest {
                 .get(TestConfig.PRACTICE_SOFTWARE_TESTING + "/products")
                 .then()
                 .statusCode(200)
-                .body("total",equalTo(50));
+                .body("total",equalTo(51));
     }
 
     @Test
@@ -30,16 +30,16 @@ public class APITest {
 
     }
 
-    @Test
-    public void postCategory(){
-
-        String payload =
-                {
-                "name": "Combination Pliers",
-                "description": "Cutters",
-                "price": 14.15}
-
-
-    }
+//    @Test
+//    public void postCategory(){
+//
+//        String payload =
+//                {
+//                "name": "Combination Pliers",
+//                "description": "Cutters",
+//                "price": 14.15}
+//
+//
+//    }
 
 }

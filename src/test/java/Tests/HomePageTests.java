@@ -1,12 +1,10 @@
 package Tests;
 
 import Base.BaseTest;
-import Pages.HomePage;
 import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class HomePageTest extends BaseTest {
+public class HomePageTests extends BaseTest {
 
 
     @Test(groups = {"regression"})

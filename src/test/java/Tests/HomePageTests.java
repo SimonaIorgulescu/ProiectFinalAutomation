@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 
 public class HomePageTests extends BaseTest {
 
+    // 1 - Sortare produse după preț descrescător
 
     @Test(groups = {"regression"})
     public void sorteazaProdusele(){
@@ -15,12 +16,16 @@ public class HomePageTests extends BaseTest {
 
     }
 
+    // 2 - Căutare produs după keyword
+
     @Test(groups = {"regression"})
     public void cautaProdus(){
 
         homePage.searchProduct("hammer");
         Assert.assertTrue(homePage.productsMatchTheSearch("hammer"));
     }
+
+    // 3 - Filtrare produse după categorie
 
     @Test(groups = {"regression"})
     public void filtreazaProdusele(){

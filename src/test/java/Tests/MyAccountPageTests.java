@@ -6,6 +6,8 @@ import org.testng.annotations.Test;
 
 public class MyAccountPageTests extends BaseTest {
 
+    // 1 - Accesare pagină Favorites
+
     @Test(groups = {"regression"})
     public void navigheazaLaFavorites(){
 
@@ -15,6 +17,8 @@ public class MyAccountPageTests extends BaseTest {
 
     }
 
+    // 2 - Accesare pagină Profile
+
     @Test(groups = {"regression"})
     public void navigheazaLaProfile(){
 
@@ -22,6 +26,8 @@ public class MyAccountPageTests extends BaseTest {
         myAccountPage.goToProfile();
         Assert.assertTrue(navigationPage.isCorrectPage("https://practicesoftwaretesting.com/account/profile"));
     }
+
+    // 3 - Accesare pagină Invoices
 
     @Test(groups = {"regression"})
     public void navigheazaLaInvoices(){
@@ -31,6 +37,8 @@ public class MyAccountPageTests extends BaseTest {
         Assert.assertTrue(navigationPage.isCorrectPage("https://practicesoftwaretesting.com/account/invoices"));
     }
 
+    // 4 - Accesare pagină Messages
+
     @Test(groups = {"regression"})
     public void navigheazaLaMessages(){
 
@@ -38,6 +46,8 @@ public class MyAccountPageTests extends BaseTest {
         myAccountPage.goToMessages();
         Assert.assertTrue(navigationPage.isCorrectPage("https://practicesoftwaretesting.com/account/messages"));
     }
+
+    // 5 - Navigare folosind dropdown-ul My Account
 
     @Test(groups = {"regression"})
     public void accountNavigateDropdown(){

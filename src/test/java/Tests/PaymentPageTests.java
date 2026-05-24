@@ -6,6 +6,8 @@ import org.testng.annotations.Test;
 
 public class PaymentPageTests extends BaseTest {
 
+    // 1 - Finalizare plată
+
     @Test(groups = {"smoke","regression"})
     public void completePayment(){
 

@@ -6,6 +6,8 @@ import org.testng.annotations.Test;
 
 public class CheckoutPageTests extends BaseTest {
 
+    // 1 - Completare formular checkout
+
     @Test(groups = {"smoke","regression"})
     public void completeCheckoutForm(){
 

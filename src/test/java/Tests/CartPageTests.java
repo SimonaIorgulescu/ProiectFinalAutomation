@@ -6,6 +6,8 @@ import org.testng.annotations.Test;
 
 public class CartPageTests extends BaseTest {
 
+    // 1 - Verificare produs în coș
+
     @Test(groups = {"smoke","regression"})
     public void isProductInCart(){
 
@@ -14,6 +16,8 @@ public class CartPageTests extends BaseTest {
         navigationPage.goToCart();
         Assert.assertTrue(cartPage.isProductInCart("Combination Pliers "));
     }
+
+    // 2 - Continue shopping din coș
 
     @Test(groups = {"smoke","regression"})
     public void continueShopping(){
@@ -25,6 +29,8 @@ public class CartPageTests extends BaseTest {
         Assert.assertTrue(navigationPage.isCorrectPage("https://practicesoftwaretesting.com/"));
     }
 
+    // 3 - Continuare la Checkout fără autentificare
+
     @Test(groups = {"smoke","regression"})
     public void proceedToCheckoutWithoutBeingLoggedIn(){
 
@@ -34,6 +40,8 @@ public class CartPageTests extends BaseTest {
         navigationPage.proceedToCheckout1();
         Assert.assertTrue(navigationPage.isCorrectPage("https://practicesoftwaretesting.com/checkout"));
     }
+
+    // 4 - Continuare la Checkout cu utilizator autentificat
 
     @Test(groups = {"smoke","regression"})
     public void proceedToCheckoutBeingLoggedIn(){

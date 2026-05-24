@@ -15,7 +15,7 @@ public class LoginPageTests extends BaseTest {
         Assert.assertTrue(loginPage.isUserLoggedIn(),"Userul nu este logat");
     }
 
-    // 2. Login cu email gresit si parola corecta
+    // 2. Login cu email invalid și parolă validă
 
     @Test(priority = 1, groups = {"regression"})
     public void loginInvalid(){
@@ -24,7 +24,7 @@ public class LoginPageTests extends BaseTest {
         Assert.assertTrue(loginPage.invalidLoginMessage(),"Mesajul de eroare nu este afisat corect");
     }
 
-    // 3. Login cu camp Password gol si email corect
+    // 3. Login cu camp password gol
 
     @Test(priority = 2, groups = {"regression"})
     public void loginCuCampPasswordGol(){

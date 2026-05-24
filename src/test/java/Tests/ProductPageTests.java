@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 
 public class ProductPageTests extends BaseTest {
 
+    // 1 - Adăugare produs în coș
 
     @Test(priority = 1, groups = {"smoke","regression"})
     public void adaugaInCos(){
@@ -14,6 +15,8 @@ public class ProductPageTests extends BaseTest {
         productPage.addToCart();
         Assert.assertEquals(navigationPage.cartUpdated(),"1","Cosul de cumparaturi nu se actualizeaza dupa adaugarea unui produs in cos");
     }
+
+    // 2 - Adăugare produs la favorite
 
     @Test(priority = 2, groups = {"regression"})
     public void adaugaLaFavorites(){

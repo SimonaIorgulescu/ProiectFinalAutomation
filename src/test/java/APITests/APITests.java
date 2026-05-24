@@ -30,16 +30,4 @@ public class APITests {
 
     }
 
-//    @Test
-//    public void postCategory(){
-//
-//        String payload =
-//                {
-//                "name": "Combination Pliers",
-//                "description": "Cutters",
-//                "price": 14.15}
-//
-//
-//    }
-
 }

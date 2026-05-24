@@ -20,10 +20,10 @@ mvn clean install
 
 ## Structura Proiectului
 
+````
 allure-report
 allure-results
 screenshots
-````
 src
     main
         java

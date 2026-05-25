@@ -6,7 +6,7 @@ Pași:
 
 Rezultat așteptat:
 - Produsele sunt sortate descrescător după preț.
-- 
+-
 
 ## 2 - Căutare produs după keyword
 

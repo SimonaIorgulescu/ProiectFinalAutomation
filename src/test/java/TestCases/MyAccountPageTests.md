@@ -1,47 +1,49 @@
-## 1 - Accesare pagină Favorites
+## 1 - Accesare pagina Favorites
 
-## Pași:
-1. Autentifică-te în cont.
-2. Accesează secțiunea Favorites.
+## Pasi:
+1. Autentifica-te in cont.
+2. Acceseaza sectiunea Favorites.
 
-## Rezultat așteptat:
-- Utilizatorul este redirectionat la pagina Favorites
-
-## 2 - Accesare pagină Profile
-
-## Pași:
-1. Autentifică-te în cont.
-2. Accesează secțiunea Profile.
-
-## Rezultat așteptat:
-- Utilizatorul este redirectionat la pagina Profile
-
-## 3 - Accesare pagină Invoices
-
-## Pași:
-1. Autentifică-te în cont.
-2. Accesează secțiunea Invoices.
-
-## Rezultat așteptat:
-- Utilizatorul este redirectionat la pagina Invoices
+## Rezultat asteptat:
+- Utilizatorul este redirectionat la pagina Favorites.
 
 
-## 4 - Accesare pagină Messages
+## 2 - Accesare pagina Profile
 
-## Pași:
-1. Autentifică-te în cont.
-2. Accesează secțiunea Messages.
+## Pasi:
+1. Autentifica-te in cont.
+2. Acceseaza sectiunea Profile.
 
-## Rezultat așteptat:
-- Utilizatorul este redirectionat la pagina Messages
+## Rezultat asteptat:
+- Utilizatorul este redirectionat la pagina Profile.
+
+
+## 3 - Accesare pagina Invoices
+
+## Pasi:
+1. Autentifica-te in cont.
+2. Acceseaza sectiunea Invoices.
+
+## Rezultat asteptat:
+- Utilizatorul este redirectionat la pagina Invoices.
+
+
+## 4 - Accesare pagina Messages
+
+## Pasi:
+1. Autentifica-te in cont.
+2. Acceseaza sectiunea Messages.
+
+## Rezultat asteptat:
+- Utilizatorul este redirectionat la pagina Messages.
 
 
 ## 5 - Navigare folosind dropdown-ul My Account
 
-## Pași:
-1. Autentifică-te în cont.
+## Pasi:
+1. Autentifica-te in cont.
 2. Deschide meniul dropdown My Account.
-3. Selectează „My favorites”.
+3. Selecteaza „My favorites”.
 
-## Rezultat așteptat:
-- Utilizatorul este redirectionat la pagina selectata
+## Rezultat asteptat:
+- Utilizatorul este redirectionat la pagina selectata.

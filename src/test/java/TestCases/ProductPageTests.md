@@ -1,25 +1,25 @@
-## 1 - Adăugare produs în coș
+## 1 - Adaugare produs in cos
 
-Pași:
+## Pasi:
 1. Deschide pagina produsului Combination Pliers.
-2. Adaugă produsul în coș.
+2. Adauga produsul in cos.
 
-Rezultat așteptat:
-- Produsul este adăugat în coș.
-- Iconita coșului este actualizata.
-- 
+## Rezultat asteptat:
+- Produsul este adaugat in cos.
+- Iconita cosului este actualizata.
 
-## 2 - Adăugare produs la favorite
+
+## 2 - Adaugare produs la favorite
 
 ## Date de test:
 - Email: customer@practicesoftwaretesting.com
-- Parolă: welcome01
+- Parola: welcome01
 
-## Pași:
-1. Autentifică-te în cont.
+## Pasi:
+1. Autentifica-te in cont.
 2. Deschide pagina produsului Combination Pliers.
-3. Adaugă produsul la favorite.
+3. Adauga produsul la favorite.
 
-## Rezultat așteptat:
-- Produsul este adăugat la favorite.
-- Este afișat mesajul de confirmare.
+## Rezultat asteptat:
+- Produsul este adaugat la favorite.
+- Este afisat mesajul de confirmare.

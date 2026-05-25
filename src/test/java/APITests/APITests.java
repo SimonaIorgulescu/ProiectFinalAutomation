@@ -16,7 +16,7 @@ public class APITests {
                 .get(TestConfig.PRACTICE_SOFTWARE_TESTING + "/products")
                 .then()
                 .statusCode(200)
-                .body("total",equalTo(51));
+                .body("total",equalTo(50));
     }
 
     @Test

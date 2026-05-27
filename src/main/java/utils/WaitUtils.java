@@ -34,6 +34,22 @@ public class WaitUtils {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
@@ -50,16 +66,3 @@ public class WaitUtils {
 //        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
 //        wait.until(ExpectedConditions.textToBePresentInElementLocated(locator, expectedText));
 //    }
-
-
-
-//saucedemo
-//    public static void waitForVisibility(WebDriver driver, By locator){
-//        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-//        wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
-//    }
-//
-//    public static void waitForClick(WebDriver driver,By locator){
-//        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
-//        wait.until(ExpectedConditions.elementToBeClickable(locator));
-//}
